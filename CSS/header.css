@@ -135,6 +135,9 @@ header>.header>.gnb>.menu3>li:nth-child(3){
 .nav>ul>li:last-child a::after{
     content:'';
 }
+.nav>ul>li:nth-child(5) a::after{
+    content:'';
+}
 .nav>.submenu>li>a{
     font-weight:bold;
 }
