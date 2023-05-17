@@ -66,23 +66,46 @@ main>.subsection>.sub1>.sub2>.front>a{
     border:1px solid;
     width: 100%;
     height: 424px;
-    
-    
+    background-color: lightgray;
 }
 .contents>.contentslist{
     /* height:262px; */
 
 }
 .contents>.contentslist>.mainmovie{
-   display: block;
+   display: flex;
+   position:relative;
 }
-.contents>.contentslist>.mainmovie>a{
-  
+.contents>.contentslist>.mainmovie>li{
+    list-style: none;
+    position: relative;
+    height:50px;
+    align-items: center;
+    /* display: flex; */
+
 }
-.contents>.contentslist>.mainmovie>a img{
+.contents>.contentslist>.mainmovie>li>a{
+    text-decoration: none;
+    color:black;
+    margin-top:10px;
+    /* border:1px solid;     */
+    text-align: center;
+    align-items: center;
+    font-size:12px;
+    font-weight: bold;
+    margin-left:35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.contents>.contentslist>.mainmovie>li>a img{
     width:232px;
     height: 312px;
     margin-top:25px;
     margin-left:25px;
+    padding-bottom:30px;
+
 }
    
