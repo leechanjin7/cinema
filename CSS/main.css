@@ -71,6 +71,7 @@ main>.subsection>.sub1>.sub2>.front>a{
 }
 .contents>.contentslist{
     /* height:262px; */
+    width:100%;
 
 }
 .contents>.contentslist>.mainmovie{
