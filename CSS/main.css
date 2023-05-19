@@ -63,6 +63,7 @@ main>.subsection>.sub1>.sub2>.front>a{
     transform:rotateY(180deg);
 }
 .contents{
+    display:flex;
     border:1px solid;
     width: 100%;
     height: 424px;
@@ -75,6 +76,8 @@ main>.subsection>.sub1>.sub2>.front>a{
 .contents>.contentslist>.mainmovie{
    display: flex;
    position:relative;
+   height: 424px;
+   justify-content: space-around;
 }
 .contents>.contentslist>.mainmovie>li{
     list-style: none;
@@ -93,7 +96,7 @@ main>.subsection>.sub1>.sub2>.front>a{
     align-items: center;
     font-size:12px;
     font-weight: bold;
-    margin-left:35px;
+    margin-left:15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,7 +107,7 @@ main>.subsection>.sub1>.sub2>.front>a{
     width:232px;
     height: 312px;
     margin-top:25px;
-    margin-left:25px;
+    margin-left:10px;
     padding-bottom:30px;
 
 }
